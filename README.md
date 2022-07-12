@@ -1,0 +1,1 @@
+Trying to improve on REST API and React pagination. Pulls the top 100 crypto tokens by market cap from Coincap's REST API and paginates them over 10 pages. Pagination.js is a component that will be able to be ported to other projects.

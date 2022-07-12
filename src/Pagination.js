@@ -91,7 +91,7 @@ const Pagination = data => {
                 {/* next button */}
                 <button
                     onClick={goToNextPage}
-                    className={`next ${currentPage === pages ? 'disabled' : ''}`}
+                    className={`next ${currentPage === 10 ? 'disabled' : ''}`}
                 >
                     next
                 </button>
