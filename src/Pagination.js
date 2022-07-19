@@ -31,7 +31,8 @@ const Pagination = data => {
 
     return (
         <div>
-            <h1 className="text-align-center">Top 100</h1>
+            <h2 className="text-align-center">Top 100 Cryptocurrencies</h2>
+            <h4 className="text-align-center">(By market cap)</h4>
             <div className="header-box">
                 <div className="box">
                     <h5 className="header-row">Rank</h5>
@@ -51,7 +52,7 @@ const Pagination = data => {
                         <div className="column">
                             {data.symbol}
                         </div>
-                        <div className="columnFix">
+                        <div className="column">
                             ${data.priceUsd > 1 ?
                                 Math.floor(data.priceUsd * 100) / 100 :
                                 data.priceUsd < 0.0001 ?
